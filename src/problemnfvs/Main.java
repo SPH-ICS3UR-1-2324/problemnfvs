@@ -15,8 +15,8 @@ public class Main {
 		int min = Integer.MAX_VALUE;
 		int count = 0;
 		int sum = 0;
-		
-		while (true) {
+		int value = 1;
+		while (value>0) {
 			System.out.println("Enter numbers");
 			
 			 int input = in.nextInt();
@@ -31,21 +31,34 @@ public class Main {
 		max = Math.max(max, input);
 		min = Math.min(min, input);
 		sum+=input;
-		
 		count++;
+		
 		}
 		
-		if (count > 0) {
-		double average = (double) sum / count;
+		if (count >0) {
+			double avg = (double)sum / count;
 			System.out.println("The max is " + max);
 			System.out.println("The min is " +min);
-			System.out.println("The average is " +average);
-		}else { 
-			System.out.println("You're Out");
+			System.out.println("The average is " +avg);
 		}
-		Scanner close;
+		in.close();
+		
+		
+		
+	
+		
+		
+		
+		
 		}
 		
+	
+	
+	
+	
+	
+	
+	
 	}
 	
 
