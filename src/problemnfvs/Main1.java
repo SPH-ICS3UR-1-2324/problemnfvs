@@ -13,9 +13,9 @@ public class Main1 {
 		int min = Integer.MAX_VALUE;
 		int count = 0;
 		int sum = 0;
-		int value = 1;
+		
 		int input = 0;
-		while (value > 0) {
+		while (true) {
 			System.out.println("Enter numbers");
 
 			input = in.nextInt();
